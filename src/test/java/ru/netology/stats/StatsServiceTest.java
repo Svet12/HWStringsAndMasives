@@ -30,6 +30,7 @@ public class StatsServiceTest {
                 8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18
         };
         double average = 0;
+
         if (sales.length > 0) {
             double sum = 0;
             for (int j = 0; j < sales.length; j++) {
