@@ -132,7 +132,7 @@ public class StatsServiceTest {
         average = sum / sales.length;
 
         for (int i = 0; i < sales.length; i++) {
-            if (sales[i] < average) {
+            if (sales[i] > average) {
                 monthsIsAboveAverage++;
             }
         }
