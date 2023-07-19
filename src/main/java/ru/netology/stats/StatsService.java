@@ -15,7 +15,6 @@ public class StatsService {
     public int averageSalesAmount(int[] sales) {// среднее значение продаж
 
         double average = 0;
-
         average = salesAmount(sales) / sales.length;
 
         return (int) average;
@@ -50,7 +49,7 @@ public class StatsService {
         double average = 0;
         int monthsIsBelowAverage = 0;
 
-        long sum = salesAmount(sales);
+
         average = salesAmount(sales) / sales.length;
 
 
@@ -67,7 +66,7 @@ public class StatsService {
         double average = 0;
         int monthsIsAboveAverage = 0;
 
-        long sum = salesAmount(sales);
+    
         average = salesAmount(sales) / sales.length;
 
         for (int i = 0; i < sales.length; i++) {
